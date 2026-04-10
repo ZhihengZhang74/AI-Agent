@@ -1,0 +1,71 @@
+/* 全局颜色覆盖 - 奶黄色 + 绿色主题 */
+
+/* Element Plus 组件主题色覆盖 */
+:root {
+  --el-color-primary: #059669;
+  --el-color-primary-light-3: #d0f0e3;
+  --el-color-primary-light-5: #e8f7f0;
+  --el-color-primary-light-7: #f0fdf4;
+  --el-color-primary-light-8: #f8fcfb;
+  --el-color-primary-light-9: #fcfdfc;
+}
+
+/* 确保背景色不被覆盖 */
+body {
+  background-color: #fefbf0 !important;
+}
+
+html {
+  background-color: #fefbf0 !important;
+}
+
+/* 移除所有蓝色背景 */
+.el-button--primary {
+  background-color: #a7f3d0 !important;
+  border-color: #a7f3d0 !important;
+  color: #047857 !important;
+}
+
+.el-button--primary:hover {
+  background-color: #86efac !important;
+  border-color: #86efac !important;
+  color: #047857 !important;
+}
+
+/* 输入框样式覆盖 */
+.el-input__wrapper {
+  background-color: #fffef7 !important;
+  border-radius: 16px !important;
+}
+
+/* 确保所有卡片背景是奶黄色系 */
+.el-card {
+  background-color: #fffef7 !important;
+  border-radius: 20px !important;
+}
+
+/* Select 选择器 */
+.el-select-dropdown {
+  background-color: #fffef7 !important;
+}
+
+/* Popover 弹窗 */
+.el-popper {
+  background-color: #fffef7 !important;
+}
+
+/* 标签背景 */
+.el-tag {
+  background-color: #ecfdf5 !important;
+}
+
+/* 确保警告框背景正确 */
+.el-alert {
+  background-color: #ecfdf5 !important;
+}
+
+/* Radio button */
+.el-radio-button__original-radio:checked + .el-radio-button__inner {
+  background: #059669 !important;
+  border-color: #059669 !important;
+}
