@@ -139,7 +139,7 @@ PORT=8000
       "province": "浙江省",
       "city": "嵊州市",
       "district": "XXX区",
-      "address": "详细地址",
+      "address": "详细��址",
       "phone": "电话号码",
       "type": "餐厅",
       "tags": "中餐",
